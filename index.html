@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Os Novos Heróis e os Feiticeiros Malvados</title>
+</head>
+<body>
+    <main>
+        <div class="stage inicial" id="stage-0">
+            <h3>Vocês são os heróis da União dos Super-Estudantes, sendo o grupo formado por: Augusto, Helena, Julieta, Wanderlei, Katerina e Victor Hugo</h3>
+            <h4>Em mais uma ação, vocês impediram o vilao Luiz Ocoppos Honnerton de fazer um ataque na cidade de São Paulo, a capital paulista.</h4>
+            <p>Entretanto, você descobre que não é um bandido qualquer, mas sim um bruxo que faz parte de uma organização. Com ele, vocês descobrem alguns registros e depoimentos dele. Estes indicam lugares no Acre, Rondônia, Bolivia, Paraguai e Chile - segundo ele - o seu QG na América do Sul.</p>
+            <p>Vocês se dividem em 2 grupos e decidem ir a um lugar diferente do outro</p>
+            <p>Aonde o grupo principal deseja ir?</p>
+            <button class="btn-proximo" data-proximo="1-1-1">Acre, passando por Rondônia(há uma surpresa)</button>
+            <button class="btn-proximo" data-proximo="1-2-1">Chile, passando pela Bolívia(há outra surpresa)</button>
+            <button class="btn-proximo" data-proximo="null">Voltar para casa</button>
+        </div>
+        
+        <div class="stage" id="stage-1-1-1">
+            <img class="rodoviariatiete" src="1024px-Fachada_Rod_Tietê(1).jpg" alt="">
+            <p>Vocês começam na Rodoviária do Tietê, pegam o ônibus até a cidade de Porto Velho, a capital do estado.</p>
+            <button class="btn-proximo" data-proximo="1-1-2">Próximo</button>
+        </div>
+
+        <div class="stage" id="stage-1-1-2">
+            <img class="portovelho" src="1024px-Porto_Velho,_Rondônia,_Brasil.jpg" alt="">
+            <p>Ao chegar lá, você descobre que o núcleo acreano caiu. Segundo os relatos ele fez várias ações. Os ataques foram contra movimentos locais, mirando a infraestrutura ao redor, isto resultou em, por exemplo: quedas “misteriosas” de postes e/ou fios de alta tensão e acidentes de trânsito sem explicações.</p>
+            <button class="btn-proximo" data-proximo="1-1-3">Próxima informação</button>
+        </div>
+
+        <div class="stage" id="stage-1-1-3">
+            <p>Algumas pessoas que saíram, disseram que este núcleo utilizava rituais para realizar ações em vários lugares e apoiando seus colegas em outras pertes, onde alguns membros queimavam parte de sua produção (alguns eram latifundiários e doavam o excedente). No final, alguns deles foram para o Paraná(o verdadeiro QG no Brasil) e para a Bolívia. Antes de vocês irem à rodoviária, uma das vítimas os encontra e se oferece para falar com vocês.</p>
+            <button class="btn-proximo" data-proximo="1-1-4">Vamos ouví-lo</button>
+        </div>
+
+        <div class="stage" id="stage-1-1-4">
+            <p>Ele é Irapuã Horácio de Freitas Galvez, líder da Organização dos Indígenas e Pequenos Produtores do Norte. Ele e seu pai denunciaram ações de grilagem, mineração ilegal e incêndios criminosos na região, que flagelavam os povos indígenas locais. Após uma das denuncias, o pai dele, então líder do movimento, sofreu um acidente, tendo seu carro atingido por um trem de carga que saía de Manaus. Misteriosamente o carro parou de funcionar no cruzamento viário e o pai dele não pôde sair do veículo. O trem bateu no carro e infelizmente o sr. Olimpo Galvez não sobreviveu à batida, que foi forte mesmo o maquinista tentando parar a composição. Apesar das investigações não conseguirem entender as causas, dado que os agentes e locais estavam, alguns segundos atrás, em perfeitas condições, Irapuã atribui este ataque ao grupo destes feiticeiros, pois suspeita da aliança deles. Após este relato, vocês decidem-se aonde irão primeiro.</p>
+            <button class="btn-proximo" data-proximo="2-1-1">Vamos ao Paraná</button>
+            <button class="btn-proximo" data-proximo="2-2-1">Vamos à Bolívia</button>
+        </div>
+
+        <div class="stage" id="stage-2-1-1">
+            <p>Tomando o ônibus para voltar a Sâo Paulo, vocês investigam algumas ações suspeitas e ouvem que seus amigos derrubaram, com o auxilio das autoridades, o núcleo de La Paz. Depois ouvem o caos da região da Chiqitania, que os força a ficar na Bolívia de maniera imediata, para reporimir os criminosos. Após isso, eles também voltam para São Paulo.</p>
+            <button class="btn-proximo" data-proximo="2-1-2">O que será que eles tiveram que enfrentar?</button>
+        </div>
+
+        <div class="stage" id="stage-2-1-2">
+            <img class="rodoviariatiete2" src="1024px-Fachada_Rod_Tietê(1).jpg" alt="">
+            <p>Ao chegar á rodoviária do Tietê, vocês decidem ir ao Aeroporto de Guarulhos para ver seus colegas. Após o alívio, todos devidem ir para Curitiba, onde fica o último núcleo da organização dos magos radicalistas.</p>
+            <button class="btn-proximo" data-proximo="2-1-3">Próximo</button>
+        </div>
+
+        <div class="stage" id="stage-2-2-1">
+            <img class="elaltobol" src="1024px-462_-_Guayaramerin.jpg" alt="">
+            <p>Então resolvem tomar o caminho pelas cidades de Guajará-Mirim e Guayaramerín, até chegar a Riberalta</p>
+            <button class="btn-proximo" data-proximo="2-2-2">Próximo</button>
+        </div>
+
+        <div class="stage" id="stage-2-2-2">
+            <p>Quando chegam a Riberalta, ouvem a notícia que os feiticeiros podem cair a qualquer momento, então resolvem ir imediatamente a El Alto, buscando chegar ao Aeroporto</p>
+            <button class="btn-proximo" data-proximo="2-2-3">Vamos logo!</button>
+        </div>
+
+        <div class="stage" id="stage-2-2-3">
+            <img class="elaltobol" src="1024px-181_-_city_of_El_Alto_-_busy_and_beautiful.jpg" alt="">
+            <p>Ao chegar ao aeroporto principal, vocês percebem que o mago malvado foi detido, então...</p>
+            <button class="btn-proximo" data-proximo="1-2-7">Vamos ver o que acontece lá</button>
+        </div>
+
+        <div class="stage" id="stage-null">
+            <p>Então, você volta para casa e sua aventura fica por aqui. GAMEOVER e SEFODEU!</p>
+            <button class="btn-proximo" data-proximo="0">Tentar novamente</button>
+        </div>
+
+        <div class="stage" id="stage-1-2-1">
+            <img class="elaltobol" src="Sao_paulo_airport_terminal_3.jpg" alt="">
+            <p>Vocês começam indo ao Aeroporto de Guarulhos, e pegam um voo para Santa Cruz de la Sierra/SCZ, na Bolívia.</p>
+            <button class="btn-proximo" data-proximo="1-2-2">Próxima informação</button>
+        </div>
+
+        <div class="stage" id="stage-1-2-2">
+            <img class="portovelho" src="1024px-VVI_2011.jpg" alt="">
+            <P>Ao chegar ao Aeroporto Viru Viru, no município, ouvem relatos e notícias sobre ações da organização malvada no local.</P>
+            <p>As informações são em relação a acidentes de carros sem explicações, que misteriosamente atingem líderes políticos e de movimentos sociais. Uma das vítimas é o líder Andrés Ayacucho, da "Asociación de los Trabajadores Campesinos y Pueblos Indigenas de la Chiquitanía" que se oferece para falar com vocês.</p>
+            <button class="btn-proximo" data-proximo="1-2-3">O que ele tem a dizer?</button>
+        </div>
+
+        <div class="stage" id="stage-1-2-3">
+            <p>Ouvindo seus relatos, vocês confirmam uma de suas suspeitas. Ele sofreu um acidente misterioso, que vitimou ele e sua família em La Guardia, após denunciar ações de grilagem nas regiões de San Ignacio de Velasco e El Carmen. Ele acredita na aliança entre o grupo e os grileiros crucenhos(da região de Santa Cruz, na Bolívia), uma vez que o carro dele e o microônibus que o atingiu tinha perfeitas condições de circulação, o que se comprovou nas investigações. Ele, ao ouvir de vocês estão investigando o grupo ritualista-extremista, os afirma que já ouviu falar dele antes do acidente, após a notícia que um dos núcleos no Chile caiu. Ele dá informações de que alguns colegas que também sofreram com os ataques místicos. Após a conversa, vocês decidem ir para El Alto, na região de La Paz.</p>
+            <button class="btn-proximo" data-proximo="1-2-4">O que tem lá, vizinho a La Paz</button>
+        </div>
+
+        <div class="stage" id="stage-1-2-4">
+            <img class="elaltobol" src="1024px-181_-_city_of_El_Alto_-_busy_and_beautiful.jpg" alt="">
+            <p>Ao chegar ao município de El Alto, vocês percebem que o núcleo fica em Apacheta, extremo sul. Então pedem apoio do governo</p>
+            <button class="btn-proximo" data-proximo="1-2-5">Então vamos lá</button>
+        </div>
+
+        <div class="stage" id="stage-1-2-5">
+            <p>O governo local entede suas intenções, mas desacredita suas ações, devido aos possíveis "Modus operandi" da organização, entretanto cede o apoio necessário.</p>
+            <button class="btn-proximo" data-proximo="1-2-6">Então vamos lá</button>
+        </div>
+
+        <div class="stage" id="stage-1-2-6">
+            <p>Primeiro Chefão!</p>
+            <P>Quando chegam ao bairro de Apacheta, o chefe dos feiticeiros locais resolve enfrentá-los, mas um dos agentes, que era imune, consegue ajudar vocês a derrotá-lo.</P>
+            <button class="btn-proximo" data-proximo="1-2-7">O que será quie ele vai dizer</button>
+        </div>
+
+        <div class="stage" id="stage-1-2-7">
+            <P>Ao ser detido, ele dá várias informações sobre o núcleo e xinga vocês de "comunistas". As informações revelam que os núcleos do Chile e do Acre caíram devido a ações governamentais e populares. Os restantes dos membros resolveram ir ao Paraná. Então, vamos ao paraná?</P>
+            <button class="btn-proximo" data-proximo="1-2-8">Sim, vamos lá</button>
+        </div>
+
+        <div class="stage" id="stage-1-2-8">
+            <P>Há um empecilho: grileiros estão atacando cidades e vilarejos em represália ás ações que derrubaram a organização, então vocês são obrigados a tomar um voo imediatamente para Santa Cruz a fim de ajudar as autoridades e aos heróis locais a reprimir os criminosos. Após o controle destes conflitos, vocês resolvem ir para São Paulo</P>
+            <button class="btn-proximo" data-proximo="1-2-9">O que será que nossos amigos têm a dizer lá!</button>
+        </div>
+
+        <div class="stage" id="stage-1-2-9">
+            <img class="rodoviariatiete" src="1024px-Fachada_Rod_Tietê(1).jpg" alt="">
+            <P>Ao chegar a São Paulo, resolvem tomar o ônibus até o Paraná</P>
+            <button class="btn-proximo" data-proximo="2-1-3">Será que o núcleo local está forte?</button>
+        </div>
+
+        <div class="stage" id="stage-2-1-3">
+            <P>No caminho, vocês observam que há bombeiros e ambulâncias no trecho à frente, por causa de um acidente.</P>
+            <button class="btn-proximo" data-proximo="2-1-3-1">O que será que aconteceu?</button>
+        </div>
+
+        <div class="stage" id="stage-2-1-3-1">
+            <P>O ônibus que levava uma delegação de estudantes capotou após sair da rodovia. O acidente acaba tendo circunstâncias misteriosas pois, quando vocês ouvem os policiais, percebem que o veículo estava com tudo em bom estado. Com estas situações, vocês continuam a viagem e chegam a Curitiba</P>
+            <button class="btn-proximo" data-proximo="2-1-4">O que tem lá?</button>
+        </div>
+
+        <div class="stage" id="stage-2-1-4">
+            <img class="rodoviariatiete2" src="1024px-20042017_-_Rodoferroviária_de_Curitiba.jpg" alt="">
+            <P>Quando chegam à cidade, percebem que há um membro pronto para enfrentá-los fora do terminal. Ele está comunicando-se com seus colegas a fim de pedir reforços.</P>
+            <button class="btn-proximo" data-proximo="2-1-4-1">Precisamos também!</button>
+        </div>
+
+        <div class="stage" id="stage-2-1-4-1">
+            <P>Vocês pedem, secretamente, o apoio das autoridades, que discretamernte chegam ao local, prontos para ajudá-los.</P>
+            <button class="btn-proximo" data-proximo="2-1-5">Vamos à luta!</button>
+        </div>
+
+        <div class="stage" id="stage-2-1-5">
+            <h3>Chefão Final!</h3>
+            <p>Vocês se enfrentam a esse sujeito, os reforços de ambos os lados vão complicam a situação, no final, resta apenas o membro mais radical, que é preso(o resto teve que ir ao hospital ou não resisitiu aos ferimentos)</p>
+            <button class="btn-proximo" data-proximo="2-1-6">Terminou?</button>
+        </div>
+
+        <div class="stage" id="stage-2-1-6">
+            <p>Após a "prisão" dele, o grupo cai e vocês vencem. No final, resolvem ir para casa, em São Paulo e prestam os devidos depoimentos lá.</p>
+            <button class="btn-proximo" data-proximo="2-1-7">próximo</button>
+        </div>
+
+        <div class="stage" id="stage-2-1-7">
+            <img class="elaltobol" src="1024px-Zona_norte_de_sao_paulo_e_serra_da_cantareira.jpg" alt="">
+            <p>Quando chegam à capital paulista, vocês vêm que a notícia ganhou repercussão nacional. Então resolvem voltar às suas atividades normais. A aventura terminou, mas uma nova começará? Como dizem as pessoas: "Só Deus sabe". Mais isso não importa tanto, pois a vitória trouxe várias memórias que poderão servir de lição e exemplo a outras pessoas.</p>
+            <h4>FIM</h4>
+            <button class="btn-proximo" data-proximo="credits">próximo</button>
+        </div>
+
+        <div class="stage" id="stage-credits">
+            <h3>Créditos</h3>
+            <p>'Fachada da Rodoviária do Tietê" por Lucs1994 - Wikipedia Commons</p>
+            <p>"Porto Velho, Rondonia, Brasil" por Silva Junior - Wikipedia Commons</p>
+            <p>"city of El Alto - busy and beautiful" e "462 - Guayaramerín" por Aurimaz - Wikipedia Commons</p>
+            <p>"VVI 2011', por Edgar Claure - Wikipedia Commons</p>
+            <p>"Zona Norte de São Paulo e Serra da Cantareita" por pedu0303 - Wikipedia Commons</p>
+            <p>"20042017 - Rodoferroviária de Curitiba" por Carlírio Neto - Wikipedia Commons</p>
+            <p>"Sao Paulo Airport Terminal 3" por Arne Müseler - Wikipedia Commons</p>
+            <button class="btn-proximo" data-proximo="0">Reiniciar a aventura. Obrigado.</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
